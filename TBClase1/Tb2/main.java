@@ -14,6 +14,9 @@ public class main {
         s.NuevaFactura(listadoClientes.get(2));
         s.NuevaFactura(listadoClientes.get(2));
         s.NuevaFactura(listadoClientes.get(1));
+        s.NuevaFactura(listadoClientes.get(1));
+        s.NuevaFactura(listadoClientes.get(1));
+
 
         s.CargarFacturas();
 
