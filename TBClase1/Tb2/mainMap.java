@@ -2,9 +2,9 @@ package TBClase1.Tb2;
 
 import java.util.ArrayList;
 
-public class main {
+public class mainMap {
     public static void main(String[] args) {
-        Sistema s = new Sistema();
+        SistemaMAP s = new SistemaMAP();
 
         s.NuevoCliente();
         s.CargarClientes();

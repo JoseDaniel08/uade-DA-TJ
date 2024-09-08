@@ -1,5 +1,7 @@
 package TBClase1.Tb1;
 
+import java.util.Calendar;
+
 public class main {
 
     static boolean CombinacionON(int[][] math){
@@ -21,9 +23,21 @@ public class main {
         }
     }
 
+    static int CalcularMaximo(int[] Array){
+        int max = Array[0];
+        for (int i = 1; i < Array.length; i++) {
+            if (max < Array[i]) {
+                max = Array[i];
+            }
+        }
+        return max;
+    }
+
     public static void main(String[] args) {
         int[][] math = {{4,5,6},{7,8,9},{5,6,7}};
+        int[] arr = {3, 5, 1, 9, 2, 8};
         System.out.println("¿Existe una combinacion? " + "Es: " + CombinacionON(math));
+        System.out.println("El valor maximo es: " + CalcularMaximo(arr));
 
     }
 
