@@ -60,7 +60,7 @@ public class SistemaMAP {
             sumaPorCliente.put(f.getIDCliente(),sumaPorCliente.getOrDefault(f.getIDCliente(), 0.0)+ f.getImporte());
         }
         for (Cliente c : clientes) {
-            System.out.println("Cliente: " + c.getNombre() + "Suma de importe: " + sumaPorCliente.get(c.getId()));
+            System.out.println("Cliente: " + c.getNombre() + " Suma de importe: " + sumaPorCliente.get(c.getId()));
         }
     }
 }
